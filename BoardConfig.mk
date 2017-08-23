@@ -46,6 +46,8 @@ ENABLE_CPUSETS := true
 
 ENABLE_SCHEDBOOST := true
 
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
 
